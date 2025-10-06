@@ -1,9 +1,3 @@
-const char *load_default_groups[]= {
-"mysqld", "server", MYSQL_BASE_VERSION,
-"mariadb", MARIADB_BASE_VERSION,
-"mariadbd", MARIADBD_BASE_VERSION,
-"client-server",
-#ifdef WITH_WSREP
-"galera",
-#endif
-0, 0};
+version https://git-lfs.github.com/spec/v1
+oid sha256:64fe8bb507976f9cf737dffaf1a0904972a17212ddfb58ce39f67e823da3e000
+size 204

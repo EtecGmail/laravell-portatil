@@ -1,20 +1,3 @@
-2025-03-27  0:51:57 0 [Note] Starting MariaDB 10.6.16-MariaDB source revision b83c379420a8846ae4b28768d3c81fa354cca056 as process 6988
-2025-03-27  0:51:57 0 [Note] InnoDB: The first data file './ibdata1' did not exist. A new tablespace will be created!
-2025-03-27  0:51:57 0 [Note] InnoDB: Compressed tables use zlib 1.3
-2025-03-27  0:51:58 0 [Note] InnoDB: Number of pools: 1
-2025-03-27  0:51:58 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
-2025-03-27  0:51:58 0 [Note] InnoDB: Initializing buffer pool, total size = 20971520, chunk size = 20971520
-2025-03-27  0:51:58 0 [Note] InnoDB: Completed initialization of buffer pool
-2025-03-27  0:51:58 0 [Note] InnoDB: Setting file './ibdata1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-03-27  0:51:58 0 [Note] InnoDB: File './ibdata1' size is now 12 MB.
-2025-03-27  0:52:00 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 100663296 bytes
-2025-03-27  0:52:11 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
-2025-03-27  0:52:11 0 [Note] InnoDB: New log file created, LSN=10301
-2025-03-27  0:52:11 0 [Note] InnoDB: Doublewrite buffer not found: creating new
-2025-03-27  0:52:14 0 [Note] InnoDB: Doublewrite buffer created
-2025-03-27  0:52:14 0 [Note] InnoDB: 128 rollback segments are active.
-2025-03-27  0:52:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2025-03-27  0:52:14 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2025-03-27  0:52:16 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
-2025-03-27  0:52:17 0 [Note] InnoDB: 10.6.16 started; log sequence number 0; transaction id 3
-2025-03-27  0:52:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1307052bf4393c7c7f8a650be62fe2ddf98501516c333998904681ea5782550
+size 1739

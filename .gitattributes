@@ -1,0 +1,14 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
+*.MYI filter=lfs diff=lfs merge=lfs -text
+mariadb/** filter=lfs diff=lfs merge=lfs -text
+composer/** filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.phar filter=lfs diff=lfs merge=lfs -text
+*.ibd filter=lfs diff=lfs merge=lfs -text
+*.frm filter=lfs diff=lfs merge=lfs -text
+*.MYD filter=lfs diff=lfs merge=lfs -text
+*.ib_logfile* filter=lfs diff=lfs merge=lfs -text
+php/** filter=lfs diff=lfs merge=lfs -text
