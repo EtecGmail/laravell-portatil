@@ -1,0 +1,48 @@
+CASO DE ERRO DE CAMINHO DE PASTA LEIA ABAIXO, SENÃO, PULE PARA O FINAL.
+
+
+LEIA ESTA MERDA DIREITO, SEU ANIMAL!
+
+Se você resolveu mudar essa pasta "LARAVELL PORTÁTIL" de um pendrive ou qualquer outro lugar pro caralho que seja, PRESTA ATENÇÃO, PORRA!
+
+O arquivo "my.ini" que fica lá dentro da pasta "mariadb" PRECISA ser configurado pra funcionar no lugar onde VOCÊ COLOCOU ESSA BOSTA!
+
+FAÇA ISSO AQUI, SEU JUMENTO:
+
+Abra o arquivo my.ini (se você não achar, VOCÊ É BURRO MESMO):
+
+1) Encontre essas linhas aqui, caralho:
+
+basedir=E:/LARAVELL/mariadb
+datadir=E:/LARAVELL/mariadb/data
+log-error=E:/LARAVELL/mariadb/mariadb_error.log
+
+2) Troque essa PORRA dessa letra "E:" ou QUALQUER MERDA QUE TIVER AÍ pela letra atual da unidade onde você jogou essa pasta infernal.
+
+Por exemplo, se você colocou essa merda em D:, então fica assim:
+
+basedir=D:/LARAVELL/mariadb
+datadir=D:/LARAVELL/mariadb/data
+log-error=D:/LARAVELL/mariadb/mariadb_error.log
+
+3) Salva essa BOSTA direito dessa vez e executa o maldito "setup.bat".
+
+4) Depois roda a merda do "start.bat".
+
+SE VOCÊ NÃO FIZER ESSA PORRA CERTA, NÃO VAI FUNCIONAR, PORRA! DEU PRA ENTENDER OU TÁ DIFÍCIL AINDA?
+
+VOU TE DAR MAIS UM EXEMPLO, PORQUE SEI QUE VOCÊ É BURRO PRA CARALHO
+
+Se você copiou essa pasta "LARAVELL PORTATIL" pra unidade C:, ficando em `C:\LARAVELL PORTATIL`, presta atenção, seu merda inútil! O arquivo TEM que ficar assim:
+
+basedir=C:/LARAVELL PORTATIL/mariadb
+datadir=C:/LARAVELL PORTATIL/mariadb/data
+log-error=C:/LARAVELL PORTATIL/mariadb/mariadb_error.log
+
+Agora salva essa merda direito, executa primeiro o "setup.bat" e depois o "start.bat", sem encher o saco! Se não funcionar, é só porque VOCÊ É UM IMBECIL MESMO, DEV DE MERDA!
+
+
+JA QUE NÃO DEU ERRO DE CAMINHO NEM NADA ASSIM, SE ESTÁ AQUI ALGO DEU ERRADO.
+TENTE INSTALAR O REQUISITO " VC " 
+FOI? Não me importa
+UM BEIJO NAS PARTES REPRODUTIVAS DE QUEM LEU ATÉ AQUI
