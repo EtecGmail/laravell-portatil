@@ -12,3 +12,4 @@ composer/** filter=lfs diff=lfs merge=lfs -text
 *.MYD filter=lfs diff=lfs merge=lfs -text
 *.ib_logfile* filter=lfs diff=lfs merge=lfs -text
 php/** filter=lfs diff=lfs merge=lfs -text
+*.bat text eol=crlf
