@@ -109,9 +109,19 @@ netstat -ano | findstr /R ":!MARIADB_PORT!.*LISTENING" >nul || (
 )
 
 if not exist "%PROJETOS_DIR%" (
-    echo A pasta "projetos" nao foi encontrada no caminho: %PROJETOS_DIR%
-    pause
-    exit /b
+    echo [INFO] Pasta de projetos nao encontrada. Criando em "%PROJETOS_DIR%"...
+    mkdir "%PROJETOS_DIR%" >nul 2>&1
+    if errorlevel 1 (
+        echo [ERRO] Falha ao criar a pasta de projetos em "%PROJETOS_DIR%".
+        echo         Verifique suas permissoes e tente novamente.
+        goto fatal
+    )
+    if not exist "%PROJETOS_DIR%\README.txt" (
+        (
+            echo Esta pasta armazena os projetos gerenciados pelo LARAVEL PROJECT MANAGER.
+            echo Adicione aqui os projetos existentes ou utilize o menu para cria-los.
+        )>"%PROJETOS_DIR%\README.txt"
+    )
 )
 
 cls
